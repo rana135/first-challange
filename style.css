@@ -15,11 +15,45 @@ h2{
 .flexible{
     display:flex;
     
+    padding-left: 20px;
+    margin-bottom: 150px;
 }
 .width-div{
     width:50%
     
+    
 }
 .width-div img{
     width:90%;
+    margin-left: 20px;
+}
+.link-button{
+    background-image: linear-gradient(orange,tomato);
+    padding:10px;
+    color:white;
+    border-radius:10px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-decoration: none;
+}
+.top-banner{
+            background-image: url(images/top-banner.png);
+            background-repeat: no-repeat;
+}
+.dream-bg{
+         background-image: url(images/dream-bg.png);
+         background-repeat: no-repeat;
+         background-position: right;
+}
+.box{
+    box-shadow:10px 10px 40px gray;
+    margin-left:2%;
+    margin-right:2%;
+    padding-left: 10px;
+    
+}
+.exp-picture{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
