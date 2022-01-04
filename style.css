@@ -1,0 +1,25 @@
+body{
+    margin:0px;
+    font-family: 'EB Garamond', serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.orange{
+    font-size: 50px;
+    color:orangered;
+}
+.flexible{
+    display:flex;
+    
+}
+.width-div{
+    width:50%
+    
+}
+.width-div img{
+    width:90%;
+}
