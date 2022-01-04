@@ -50,10 +50,24 @@ h2{
     margin-left:2%;
     margin-right:2%;
     padding-left: 10px;
+    border-radius:30px;
     
 }
 .exp-picture{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#border1{
+    border-left:10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#border2{
+    border-left:10px solid;
+    border-image:linear-gradient(orange,red);
+    border-image-slice:1;
+}
+footer p{
+    text-align:center;
 }
